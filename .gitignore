@@ -1,0 +1,68 @@
+### 💾 Hệ điều hành ###
+.DS_Store
+Thumbs.db
+
+### 🏗️ Biên dịch & Build ###
+target/
+out/
+bin/
+build/
+
+### 📦 Quản lý package ###
+node_modules/
+bower_components/
+
+### 🔧 IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+
+### 🔧 Eclipse/STS ###
+*.classpath
+*.project
+*.settings/
+
+### 🛠️ VS Code ###
+.vscode/
+
+### ⚙️ Gradle ###
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle-cache/
+
+### ⚙️ Maven ###
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+### 🔑 File cấu hình môi trường ###
+.env
+.env.local
+application.properties
+application.yml
+application-dev.properties
+application-prod.properties
+secrets.properties
+
+### 🗄️ File log ###
+*.log
+logs/
+nohup.out
+
+### 🔑 Chứng chỉ SSL ###
+*.jks
+*.p12
+*.pem
+*.crt
+*.cer
+*.key
+
+### 🗑️ Backup & Temp files ###
+*.bak
+*.swp
+*.swo
+*.tmp
